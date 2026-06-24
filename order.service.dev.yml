@@ -1,11 +1,11 @@
 global:
-  message: Welcome to order service prod environment!!
+  message: Welcome to order service dev environment!!
 server:
-  port: 8085
-message: Hello from Order Prod!
+  port: 8084
+message: Hello from Order dev!
 spring:
   datasource:
-     url: jdbc:mysql://localhost:3306/order_prod
+     url: jdbc:mysql://localhost:3306/order_dev
      username: root
      password:
   jpa:
